@@ -1,0 +1,243 @@
+{
+  "intents" : [
+    {
+      "tag" : "greeting",
+      "patterns" : [
+        "hello","hi","hey","wake up"
+      ],
+      "responses": [
+        "Hello Sir","How Are You Sir.","Always For You Sir",
+                "Hello","Here's Your Assistant."
+      ]
+    },
+    {
+        "tag":"bye",
+        "patterns":["bye","goodbye","see you later","sleep","exit"
+        ],
+        "responses":[
+          "nowexit"
+        ]
+    },
+    {
+        "tag":"health",
+        "patterns":["how are you","how you","are you fine?","are you good","How you doing"
+        ],
+        "responses":["Fine.","Perfect.","Cool.",
+            "Like You.","Are you Fine? I'm Fine."
+        ]
+    },
+    {
+        "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+    },
+    {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general purpose artificial intelligence. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+            ]
+
+    },
+    {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am Jarvis, Made from deep learning, Nural network, Natural Language Processing "
+            ]
+    },
+    {
+      "tag": "date",
+            "patterns": [
+                "what is the date",
+                "date",
+                "tell me the date"
+            ],
+            "responses": [
+                "date"
+            ]
+    },
+    {
+      "tag": "time",
+            "patterns": [
+                "What is the time",
+                "time",
+                "tell me the time"
+
+            ],
+            "responses": [
+                "time"
+            ]
+    },
+    {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+    },
+    {
+            "tag": "insult",
+            "patterns": [
+
+                "you are dumb",
+
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+    {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+    {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+    {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+    {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+    {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you"
+            ],
+            "responses": [
+                "Personally, I find Alexa, google assistant, siri very inspiring. I might not be very fair though.."
+            ]
+        },
+    {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine","good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+    {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless","useless","suggest","suggestions","you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to divyanshujethi@gmail.com Thank you for helping me improve!"
+            ]
+        },
+    {
+            "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2023, if that's what you are asking!"
+            ]
+        },
+    {"tag": "killing",
+         "patterns": ["Do you want to kill me?", "do you want to murder everyone on earth", "Do you want to kill us all"],
+         "responses": ["Then who would i talk to?","No, that i'll left for humans to do", "I don't think it is a good thing to do"],
+	 "context_set": ""
+	},
+    {
+            "tag": "wikipedia",
+            "patterns": [
+              "what is", "who is", "tell me about",  "wikipedia"
+            ],
+            "responses": [
+                "wikipedia"]
+        },
+    {
+            "tag": "google",
+            "patterns": [
+              "google", "search", "search for", "google search" , "google for"
+            ],
+            "responses": [
+                "google"]
+        },
+    {
+            "tag": "youtube",
+            "patterns": [
+              "youtube", "youtube for", "youtube search"
+            ],
+            "responses": [
+                "youtube"]
+        },
+    {
+            "tag": "news",
+            "patterns": [
+              "news", "top headlines", "today news", "latest news","india news","tell me the news"
+            ],
+            "responses": [
+                "news"]
+        }
+
+  ]
+}
+
